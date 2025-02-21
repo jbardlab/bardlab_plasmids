@@ -1,0 +1,44 @@
+{
+  "build": "h8857fd0_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "ISC",
+  "md5": "3418b6c8cac3e71c0bc089fc5ea53042",
+  "name": "ca-certificates",
+  "sha256": "42e911ee2d8808eacedbec46d99b03200a6138b8e8a120bd8acabe1cac41c63b",
+  "size": 158408,
+  "subdir": "osx-64",
+  "timestamp": 1738298385933,
+  "version": "2025.1.31",
+  "fn": "ca-certificates-2025.1.31-h8857fd0_0.conda",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ca-certificates-2025.1.31-h8857fd0_0.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/Users/jbard/Library/Caches/rattler/cache/pkgs/ca-certificates-2025.1.31-h8857fd0_0",
+  "files": [
+    "ssl/cacert.pem",
+    "ssl/cert.pem"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "ssl/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "c55b21f907f7f86d48add093552fb5651749ff5f860508ccbb423d6c1fbd80c7",
+        "sha256_in_prefix": "c55b21f907f7f86d48add093552fb5651749ff5f860508ccbb423d6c1fbd80c7",
+        "size_in_bytes": 297255
+      },
+      {
+        "_path": "ssl/cert.pem",
+        "path_type": "softlink",
+        "sha256": "c55b21f907f7f86d48add093552fb5651749ff5f860508ccbb423d6c1fbd80c7",
+        "sha256_in_prefix": "0ebfd54889b22df75fcaac3a16c2262216c3036f967e7ecc2ed2bdf0956c16ee",
+        "size_in_bytes": 297255
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/jbard/Library/Caches/rattler/cache/pkgs/ca-certificates-2025.1.31-h8857fd0_0",
+    "type": 1
+  }
+}

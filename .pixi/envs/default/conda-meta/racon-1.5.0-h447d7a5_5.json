@@ -1,0 +1,57 @@
+{
+  "build": "h447d7a5_5",
+  "build_number": 5,
+  "depends": [
+    "libcxx >=16",
+    "libzlib >=1.2.13,<2.0a0",
+    "python"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "0e119531a5ce2776f87389de0062375f",
+  "name": "racon",
+  "sha256": "9accbeeb9663f3cf47e1c57cfb1fca8f21ee58f379069a3f9acc273335e06788",
+  "size": 169581,
+  "subdir": "osx-64",
+  "timestamp": 1732053377614,
+  "version": "1.5.0",
+  "fn": "racon-1.5.0-h447d7a5_5.tar.bz2",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/racon-1.5.0-h447d7a5_5.tar.bz2",
+  "channel": "https://conda.anaconda.org/bioconda",
+  "extracted_package_dir": "/Users/jbard/Library/Caches/rattler/cache/pkgs/racon-1.5.0-h447d7a5_5",
+  "files": [
+    "bin/racon",
+    "bin/racon_wrapper",
+    "bin/rampler"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/racon",
+        "path_type": "hardlink",
+        "sha256": "043a7907a888bc0ddf2372975bb2da0ed4fc629d0de539d2ddd3f8de059c29c7",
+        "sha256_in_prefix": "043a7907a888bc0ddf2372975bb2da0ed4fc629d0de539d2ddd3f8de059c29c7",
+        "size_in_bytes": 368448
+      },
+      {
+        "_path": "bin/racon_wrapper",
+        "path_type": "hardlink",
+        "sha256": "52073cfa2a7725eeef44eefdd8c136e11d2b69c13880c18104ec76f6d9e33848",
+        "sha256_in_prefix": "52073cfa2a7725eeef44eefdd8c136e11d2b69c13880c18104ec76f6d9e33848",
+        "size_in_bytes": 10548
+      },
+      {
+        "_path": "bin/rampler",
+        "path_type": "hardlink",
+        "sha256": "a9c24ca4885d0a8151b1768917e9260b4fda9c11d57a9f035834690b4e913e70",
+        "sha256_in_prefix": "a9c24ca4885d0a8151b1768917e9260b4fda9c11d57a9f035834690b4e913e70",
+        "size_in_bytes": 60472
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/jbard/Library/Caches/rattler/cache/pkgs/racon-1.5.0-h447d7a5_5",
+    "type": 1
+  }
+}

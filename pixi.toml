@@ -1,0 +1,13 @@
+[project]
+authors = ["Jared Bard <jabard89@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+description = "racon assembler"
+name = "racon"
+platforms = ["osx-64","linux-64"]
+version = "0.1.0"
+license = "MIT"
+
+[tasks]
+
+[dependencies]
+racon = "1.5.*"
