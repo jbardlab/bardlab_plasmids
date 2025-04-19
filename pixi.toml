@@ -10,4 +10,5 @@ license = "MIT"
 [tasks]
 
 [dependencies]
-racon = "1.5.*"
+racon = "1.5.*" 
+pyabpoa = "*"

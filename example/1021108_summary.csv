@@ -1,0 +1,5 @@
+Sample Name,Total Read Count,Total Base Count,E-coli Read Count,E-coli Base Count,Contig Name,Contig Length (bp),Reads Mapped to Contig,Bases Mapped to Contig,Multimer (by mass),Coverage,Is Circular,Reaction Status
+001_pZX020-1,2473,20491951,45,322349,001_pZX020-1_contig,10061,2250,19886496,0.79%,1936x,True,SUCCESS
+002_pZX020-4,513,3856840,8,47016,002_pZX020-4_contig,10061,433,3720601,0.60%,363x,True,SUCCESS
+003_pZX021-1,835,4460961,22,108903,003_pZX021-1_contig,9713,646,4184324,2.06%,421x,True,SUCCESS
+004_pZX021-4,945,7426639,9,75713,004_pZX021-4_contig,9709,858,7231102,1.85%,730x,True,SUCCESS
