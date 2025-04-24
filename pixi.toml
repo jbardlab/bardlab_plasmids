@@ -12,3 +12,4 @@ license = "MIT"
 [dependencies]
 racon = "1.5.*" 
 pyabpoa = "*"
+nanoplot = ">=1.44.1,<2"

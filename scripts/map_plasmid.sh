@@ -5,9 +5,9 @@
 # Usage: plasmid_analysis.sh <sample_dir> <sample_name> <template_fasta> <fastq_file>
 
 # Check if arguments are provided
-if [ "$#" -ne 4 ]; then
-    echo "Usage: $0 <sample_dir> <sample_name> <template_fasta> <fastq_file>"
-    echo "Example: $0 /path/to/sampledir sample1 template.fasta reads.fastq.gz"
+if [ "$#" -ne 5 ]; then
+    echo "Usage: $0 <sample_dir> <sample_name> <template_fasta> <fastq_file> <pixi_toml>"
+    echo "Example: $0 /path/to/sampledir sample1 template.fasta reads.fastq.gz /path/to/pixi.toml"
     exit 1
 fi
 
@@ -16,11 +16,13 @@ sample_dir="$1"
 sample_name="$2"
 template_fasta="$3"
 fastq_file="$4"
+pixi_toml="$5"
 
 echo "## Starting analysis for sample: ${sample_name}"
 echo "## Sample directory: ${sample_dir}"
 echo "## Template FASTA: ${template_fasta}"
 echo "## FASTQ file: ${fastq_file}"
+echo "## PIXI toml: ${pixi_toml}"
 
 
 # Run minimap2 to generate SAM file
@@ -50,7 +52,7 @@ docker run --rm \
 
 # Run racon
 echo "## Running racon consensus..."
-pixi run racon \
+pixi run --manifest-path "${pixi_toml}" racon \
   "${sample_dir}/${fastq_file}" \
   "${sample_dir}/${sample_name}_aln.sam" \
   "${sample_dir}/${template_fasta}" > \
